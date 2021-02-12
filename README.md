@@ -18,3 +18,13 @@ Potential techniques to apply: scatter plots, bar charts, etc.
 Note: we may add preprocessing steps like spatial transformer/zoom operation/color processing
 2. Can you predict the gender/age of a person from a sample (multiple linear regression)?
 3. Clustering/categorization that hopefully lines up with their lesion diagnosis or the lesion diagnosis frequency chart from the beginner section. 
+
+
+## Step 1.
+clone this repo
+
+## Step 2. 
+clone [this](https://github.com/GalAvineri/ISIC-Archive-Downloader) repo in the same directory
+
+## Step 3.
+Run this command '!python download_archive.py --num-images=50 --images-dir ../sample_imgs --descs-dir ../sample_dscs -s --seg-dir ../sample_segs --seg-skill expert'
