@@ -31,4 +31,4 @@ clone [this](https://github.com/GalAvineri/ISIC-Archive-Downloader) repo in the 
 Go into the ISIC folder and run this command 'python download_archive.py --images-dir ../sample_imgs --descs-dir ../sample_dscs -s --seg-dir ../sample_segs --seg-skill expert'
 
 ## Step 4.
-Install [conda](https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart)
+Install all necessary packages.
