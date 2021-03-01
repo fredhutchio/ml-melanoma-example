@@ -57,5 +57,5 @@ dependencies:
   - zstd=1.4.5=h9ceee32_0
   - pip:
     - seaborn
-    - opencv
+    - opencv-python
     - tensorflow-gpu
