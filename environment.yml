@@ -59,5 +59,3 @@ dependencies:
     - seaborn
     - opencv
     - tensorflow-gpu
-    - sklearn
-prefix: /home/anmol/miniconda3/envs/melanoma-imaging
