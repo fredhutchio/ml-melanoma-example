@@ -28,7 +28,7 @@ clone this repo
 clone [this](https://github.com/GalAvineri/ISIC-Archive-Downloader) repo in the same directory
 
 ## Step 3.
-Go into the ISIC folder and run this command 'python download_archive.py --images-dir ../sample_imgs --descs-dir ../sample_dscs -s --seg-dir ../sample_segs --seg-skill expert'
+Go into the ISIC folder and run this command `python download_archive.py --images-dir ../sample_imgs --descs-dir ../sample_dscs -s --seg-dir ../sample_segs --seg-skill expert`
 
 ## Step 4.
 
