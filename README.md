@@ -31,4 +31,22 @@ clone [this](https://github.com/GalAvineri/ISIC-Archive-Downloader) repo in the 
 Go into the ISIC folder and run this command 'python download_archive.py --images-dir ../sample_imgs --descs-dir ../sample_dscs -s --seg-dir ../sample_segs --seg-skill expert'
 
 ## Step 4.
-Install all necessary packages.
+
+If you are using Fred Hutch computing resources, log into `rhino` and do the following to access all necessary packages:
+
+```
+grabnode
+ml Python/3.7.4-foss-2019b-fh1
+pip install -r requirements.txt
+```
+
+## Step 5. 
+
+To run Jupyter notebooks in `rhino` specifically, make sure you are logged in to the Fred Hutch VPN, and paste the link resulting from this command:
+Note: for any tasks requiring GPUs, make sure you specify "y" when asked for GPUs in the `grabnode` command. 
+
+```
+jupyterlab
+```
+
+

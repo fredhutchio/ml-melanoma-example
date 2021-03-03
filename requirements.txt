@@ -1,0 +1,10 @@
+pandas
+numpy
+pillow
+tqdm
+scipy
+tensorflow-gpu
+matplotlib
+seaborn
+opencv-python
+fire
