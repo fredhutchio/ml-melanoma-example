@@ -2,6 +2,8 @@
 
 ## Research questions are split into three categories based on level of interest and skill.
 
+The research questions are isolated but build upon each other in progressively "harder" modules. For instance, the first questions "path" deals with two variables: lesion appearance and diagnosis. Hence, the beginner version of Q1 correlates color and malignancy in basic plotting terms, while the intermediate version applies regression and testing to compare the same variables. At the expert level, appearance is fed into a neural network to predict the diagnosis. The same pattern applies to the remaining questions. 
+
 ### Beginner (basic stats and visualization):
 1. Does coloration (as simply as can be extracted) correlate with malignancy somehow? 
 2. Whether malignant lesions occur more along some gender or age line? 
@@ -25,12 +27,31 @@ Note: we may add preprocessing steps like spatial transformer/zoom operation/col
 clone this repo
 
 ## Step 2. 
-clone [this](https://github.com/GalAvineri/ISIC-Archive-Downloader) repo in the same directory
+clone [this](https://github.com/GalAvineri/ISIC-Archive-Downloader) repo in the same directory (i.e., as a sibling directory to this repository). 
 
 ## Step 3.
+
+__Warning!__ this command downloads the entire set and will take a very, very long time. In the notebooks, examples work on a tiny sample thereof (instructions are provided in each notebook). You can add the `--num_images=X` flag in the below command to limit the downloaded data points to however many/few you want. 
+
 Go into the ISIC folder and run this command 'python download_archive.py --images-dir ../sample_imgs --descs-dir ../sample_dscs -s --seg-dir ../sample_segs --seg-skill expert'
 
 ## Step 4.
+Ensure your environment has the following package dependencies installed (you can use `pip install` or `conda`):
+
+```
+opencv
+pandas
+numpy
+scikit-learn
+tensorflow
+pillow
+matplotlib
+seaborn
+statsmodels
+fire
+```
+
+## Step 5.
 
 If you are using Fred Hutch computing resources, log into `rhino` and do the following to access all necessary packages:
 
