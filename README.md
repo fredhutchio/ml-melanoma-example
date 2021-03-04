@@ -33,7 +33,8 @@ clone [this](https://github.com/GalAvineri/ISIC-Archive-Downloader) repo in the 
 
 __Warning!__ this command downloads the entire set and will take a very, very long time. In the notebooks, examples work on a tiny sample thereof (instructions are provided in each notebook). You can add the `--num_images=X` flag in the below command to limit the downloaded data points to however many/few you want. 
 
-Go into the ISIC folder and run this command 'python download_archive.py --images-dir ../sample_imgs --descs-dir ../sample_dscs -s --seg-dir ../sample_segs --seg-skill expert'
+Go into the ISIC folder and run this command 
+`python download_archive.py --images-dir ../sample_imgs --descs-dir ../sample_dscs -s --seg-dir ../sample_segs --seg-skill expert`
 
 ## Step 4.
 Ensure your environment has the following package dependencies installed (you can use `pip install` or `conda`):
