@@ -6,7 +6,7 @@ The research questions are isolated but build upon each other in progressively "
 
 ### Beginner (basic stats and visualization):
 1. Does coloration (as simply as can be extracted) correlate with malignancy somehow? 
-2. Whether malignant lesions occur more along some gender or age line? 
+2. Do malignant lesions occur more frequently based on sex and age?
 3. What is the essential frequency distribution of lesion diagnosis? Is it skewed (overall and within categories)? 
 Potential techniques to apply: scatter plots, bar charts, etc.
 
@@ -62,7 +62,7 @@ ml Python/3.7.4-foss-2019b-fh1
 pip install -r requirements.txt
 ```
 
-## Step 5. 
+## Step 6. 
 
 To run Jupyter notebooks in `rhino` specifically, make sure you are logged in to the Fred Hutch VPN, and paste the link resulting from this command:
 Note: for any tasks requiring GPUs, make sure you specify "y" when asked for GPUs in the `grabnode` command. 
