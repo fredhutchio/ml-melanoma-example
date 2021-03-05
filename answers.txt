@@ -1,7 +1,7 @@
 Here are the answers to the questions in this repository:
 
 Novice
-1.
+1. The scatter plot offers little conclusive insight regarding the correlation between color and malignancy. A violin plot shows that when images are made to grey-scale, benign images occur in a clustered way around lighter-color regions, while malignant images are distributed more evenly, but tend towards darker coloration. 
 
 2. Malignant lesions occur more frequently amoung individuals 50 years old and older. Malignant lesions occur around the same rate for males and females. 
 
@@ -9,14 +9,14 @@ Novice
    lesions the in the dataset that have more than 2000 samples are melanoma and basal cell carcinoma.
 
 Intermediate:
-1. For the ANOVA portion of this question, there is no significant difference among groups.
+1. For the ANOVA portion of this question, there is no significant difference among groups. Logistic regression is largely unsuccessful in using RGB values to predict malignancy.
 
 2. The most at risk group of people are males and females age 15. They have over a 50% chance of receiving a oral/genital lesion.
 
-3.
+3. Chi-square tests reveal malignancy is not independent of diagnosis types; there is a statistically significant difference in prevalence among the diagnosis types. 
 
 Expert:
-1.
+1. Deep neural architectures are capable of learning the features in skin lesion images. This means the lesion appearance can be fed through the models to predict diagnosis types (more accurate than predicting malignancy), although there are recommended improvements to be made. Chiefly, data augmentation, segmentation, and model improvements can further improve the validation/test metrics. 
 
 2. It is possible to predict someone's age using a regession model. The level of accuracy that is acceptable depends on the user and use case.
 
