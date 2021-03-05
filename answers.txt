@@ -1,0 +1,23 @@
+Here are the answers to the questions in this repository:
+
+Novice
+1.
+
+2. Malignant lesions occur more frequently amoung individuals 50 years old and older. Malignant lesions occur around the same rate for males and females. 
+
+3. There is no common distribution that can represent the data. Important things to note is that it is skewed towards nevus (25,000 samples) and the only other 
+   lesions the in the dataset that have more than 2000 samples are melanoma and basal cell carcinoma.
+
+Intermediate:
+1. For the ANOVA portion of this question, there is no significant difference among groups.
+
+2. The most at risk group of people are males and females age 15. They have over a 50% chance of receiving a oral/genital lesion.
+
+3.
+
+Expert:
+1.
+
+2. It is possible to predict someone's age using a regession model. The level of accuracy that is acceptable depends on the user and use case.
+
+3. The sizes of the clusters is not an exact match but it did capture the fact that nevus is skewed and melanoma has the second highest count.
